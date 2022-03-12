@@ -12,7 +12,12 @@ This module implements the Requests API.
 
 from . import sessions
 
+<<<<<<< HEAD
 
+=======
+def aaa(a):
+    print(a)
+>>>>>>> two
     
 def request(method, url, **kwargs):
     """Constructs and sends a :class:`Request <Request>`.
